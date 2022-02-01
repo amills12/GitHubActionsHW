@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: Check out repository code
-        uses: actions/checkout@v2
+       uses: actions/checkout@v2
      - name: Runs Make
-        run: make hello
+       run: make hello
      - name: Runs Hello
-        run: ./hello
+       run: ./hello
